@@ -1,0 +1,64 @@
+{
+	"products": [
+		{
+			"image": "blind.jpg",
+			"name": "Заглушка",
+			"price": 0,
+			"article": "toy_blind",
+			"available": false
+		},
+		{
+			"image": "kitty.jpg",
+			"name": "Котёнок",
+			"price": 150,
+			"article": "toy01",
+			"available": true
+		},
+		{
+			"image": "leopard.jpg",
+			"name": "Леопард",
+			"price": 200,
+			"article": "toy02",
+			"available": false
+		},
+		{
+			"image": "owl.jpg",
+			"name": "Совёнок",
+			"price": 250,
+			"article": "toy03",
+			"available": true
+		},
+		{
+			"image": "piggy.jpg",
+			"name": "Поросёнок",
+			"price": 300,
+			"article": "toy04",
+			"available": false
+		},
+		{
+			"image": "puppy.jpg",
+			"name": "Щенок",
+			"price": 350,
+			"article": "toy05",
+			"available": true
+		}
+	],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
